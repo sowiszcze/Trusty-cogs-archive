@@ -117,6 +117,7 @@ class AddImage:
         if ctx.invoked_subcommand is None:
             await ctx.invoke(self.rem_image_server, cmd=cmd)
 
+	@checks.mod_or_permissions(manage_server=True)
     @remimage.command(pass_context=True, name="server")
     async def rem_image_server(self, ctx, cmd):
         """Remove a selected images"""
@@ -158,6 +159,7 @@ class AddImage:
         if ctx.invoked_subcommand is None:
             await ctx.invoke(self.add_image_server, cmd=cmd)
 
+	@checks.mod_or_permissions(manage_server=True)
     @addimage.command(pass_context=True, name="server")
     async def add_image_server(self, ctx, cmd):
         """Add an image to direct upload."""
