@@ -1,9 +1,0 @@
-{
-    "AUTHOR" : "TrustyJAID",
-    "SHORT" : "Conversions",
-    "DESCRIPTION" : "Conversions for BTC, currencies, precious metals, and stocks.",
-    "DISABLED" : false,
-    "NAME" : "Conversions",
-    "TAGS" : ["general"],
-    "INSTALL_MSG" : "Various commands."
-}

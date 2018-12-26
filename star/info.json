@@ -1,9 +1,0 @@
-{
-    "AUTHOR" : "TrustyJAID",
-    "SHORT" : "Starboard",
-    "DESCRIPTION" : "Create a starboard channel to save those amazing posts!",
-    "DISABLED" : false,
-    "NAME" : "TrustyBot",
-    "TAGS" : ["general", "starboard"],
-    "INSTALL_MSG" : "Create a starboard!"
-}
